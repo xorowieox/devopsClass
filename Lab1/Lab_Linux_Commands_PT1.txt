@@ -1,0 +1,119 @@
+Starting in the Lab 1 directory,
+
+What directory are you in?
+  # /Users/rowie/Devops/Codes/DevOpsClass/Lab1
+
+What command did you use
+ # pwd
+
+What files and directories are in your current directory
+ # DS_Store, DBZ71.text, DragonBall/, GT1.txt, Vegeta/, output-onlinefiletools.txt, sonGoku/, Lab_Linux_Commands_PT1.txt (newly created to host text part of assignment)
+
+What command do you use?  
+  # ls -a
+
+Move to the Bulma directory to the Vegeta directory
+What command did you use?
+ # Did not have a Bulma directory. Created one by doing 'mkdir Bulma/'
+ # Moved Bulma directory inside Vegeta by doing 'mv Bulma/ Vegeta/'
+
+Move to the DragonBall directory and rename the Dragon Ball directory
+What command did you use?
+ # cd DragonBall/
+ # ls 
+ # mv Dragon\ Ball Dragon_Ball/ (Changed to Dragon_Ball)
+
+Change Vegeta directory to PrinceVegeta
+What command did you use?
+ # mv Vegeta PrinceVegeta
+
+Copy 20220224230242_7895.xls file to the Trunks directory and rename it to contact_list.xls
+What command did you use?
+ # cp 20220224230242_7895.xls Trunks/
+
+What is the file path of the file
+ # /Users/rowie/Devops/Codes/DevOpsClass/Lab1/PrinceVegeta/Trunks
+
+Move into the nested DragonBall directory and move the items a directory up. 
+What command did you use?
+
+ # cd DragonBall/
+ # mv -v Dragonball/ ..
+
+or
+
+ # cd .. (go to Lab1 directory)
+ # mv -v DragonBall/* .
+
+What files and directories are in your current directory
+ # DBZ71.text, DragonBall/, Drragon_Ball_Data_Set.csv, GT1.txt, Lab_Linux_Commands_PT1.txt, PrinceVegeta, Saiyans, output-onlinefiletools.txt, sonGoku, DS_Store
+Make a new directory call DragonBall4
+What command did you use?
+ # ls -a
+
+Remove the DragonBall directory
+What command did you use?
+ # rm -r DragonBall/
+
+Move into the Saiyans/Goku directory and remove 76.jpg
+What command did you use?
+ # cd ./Saiyans/Goku
+ # rm 76.jpg
+
+In the same directory open 79.jpg
+What command did you use?
+ # open 79.jpg
+
+How many Gokus are there?
+# 5
+
+In the same directory clear the screen
+What command did you use?
+# clear
+
+What is the file path to the Piccolo directory
+
+ # Could not find directory named Piccolo (doesn't exist)
+
+What command did you use?
+ # find ./Lab1/ -type d -name Piccolo
+Find all empty directories
+ # find ./Lab1/ -empty
+In the Lab1 directory folder print the GT1.txt file
+What command did you use?
+ # cat GT1.txt (to view the text file content without opening)
+
+Create a new file called newFile
+What command did you use?
+ # touch newFile
+
+Now ls and see your file in the directory
+What’s the first 5 lines in the the DBZ71.text file
+ # 
+Episode 71
+"Surprise!! Goku is Ginyu and Ginyu is Goku"
+
+The scene begins by showing the three Namekseijins that were killed by Freezer. Then the scene goes to Freezer himself.
+
+Freezer-"You think you can even put a scratch on me? You certainly overestimate yourself. They say the lowly should know their place."
+
+Nail is shaking in anger and fear
+
+Freezer-"By the way Senoir Elder, there seems to be another fool here that doesn't know his place."
+
+
+What command did you use?
+ # head -5 DBZ61.text
+
+What’s the last 7 lines in the the DBZ71.text file
+# 
+Goku/Ginyu-"This body won't move! Is that why he hurt himself? This is bad! Kuririn and the others will think he's me!"
+
+He tries to move but falls a little but gets a little control and starts to slowly move
+
+Goku/Ginyu-"Damn it! A body that I'm not used to and it hurts too! I can't fly! And even if I do make it back to Earth, Chichi will get mad at me again. Look at my face..what'll I do?"
+
+Narrator-"Goku and Ginyu have exchanged bodies. And flying towards the spaceship for the dragonballs are Gohan, Kuririn, Vegita, and Ginyu. The battle for the dragonballs continues to intensify.
+
+What command did you use?
+# tail -7 DBZ61.text
